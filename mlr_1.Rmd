@@ -1,0 +1,35 @@
+---
+title: "mlr_1"
+author: "Daniel_Kim"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+    html_notebook: 
+      toc_float: true
+      toc : true
+      toc_depth : 5
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# install.packages("mlr3")
+library(mlr3)
+```
+
+# Basics
+
+- leaner
+- resampling
+- normalization, imputation, missing value
+
+ - task
+    * Tasks encapsulate the data with meta-information, such as the name of the prediction target column
+    * access predefined tasks
+    * specify a task type
+    * create a task
+    * work with a task's API
+    * assign roles to rows and columns of a task
+    * implement task mutators, and
+    * 
+
+
+
